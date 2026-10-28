@@ -1,0 +1,26 @@
+body {
+  margin: 0;     
+  text-align: center;
+  background-color: #f2f1ee;
+  font-family: Arial, sans-serif;     
+}
+
+.hero {
+  min-height: 100vh;     
+  display: flex;            
+  flex-direction: column;   
+  justify-content: center;  
+  align-items: center;      
+  gap: 1rem;                
+  padding: 2rem 1rem;       
+}
+
+.links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.75rem;
+  margin-top: 1rem;
+  padding: 0;        
+  list-style: none;
+}
